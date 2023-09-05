@@ -1,7 +1,7 @@
+import { Route, Routes } from "react-router-dom";
 import { Box, Divider, Grid } from "@mui/material";
 
 import { useHerosStore } from "./store/sotre";
-import { Route, Routes } from "react-router-dom";
 import { Compare } from "./pages/compare/Compare";
 import { Loader } from "./components/loader/Loader";
 import { SearchField } from "./components/search-field/SearchField";
